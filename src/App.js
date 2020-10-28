@@ -16,12 +16,14 @@ const particlesOptions = {
       }
     }
   }
-};
+}
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Particles className='particles'
+          params={particlesOptions} />
         <Navigation />
         <Logo />
         <Rank />
